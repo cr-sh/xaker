@@ -25,10 +25,8 @@ echo ""
 
 
 
-echo "===== LETS START INSTALLING SOME ESSENTIAL STUFFS ====="
 
-echo "====== PROXY-FINDER SETUP ======"
- echo -e " $RESET******  SABRI ZAKI ******"                           
+ echo -e " $RESET надо установить пакеты ******"                           
 
 
 sleep 2
@@ -36,7 +34,7 @@ sleep 2
 
 
 
-echo -e " $purple >>Do you want to Continue: (Y) \c"
+echo -e " $purple >>Надо ддос? Пиши: (Y) \c"
 
 read Y
 
@@ -47,8 +45,6 @@ apt upgrade
 apt install python
 apt install git
 apt install dnsutils
-git clone https://github.com/pkgsearch/xaker/
-cd xaker
 sleep 6
 	
 echo -e "$RESET "
@@ -56,4 +52,6 @@ echo -e "$RESET "
 else
 
 exit 0
+echo "### Для атаки пропиши: python DDOS install.py -s [ip Address] -t 135
 
+fi
