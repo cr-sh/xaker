@@ -11,6 +11,6 @@ echo -e "\e[34m
  ░█ █░  █░ ▓█  █ ░█   ▓▓  █   █
  █▒ ▒█  ▒██▒█  █  ▒█   ███▒   █
 made by @pkgsearch \e[0m"
-echo -e "\e[34m [1]Дудос python DDOS.py \e[0m"
-echo -e "\e[34m [2]Бомбер python BOMBER.py \e[0m"
-echo -e " >>Выберите параметр:"
+echo -e "\e[34m ДУДОС [ python DDOS.py ] \e[0m"
+echo -e "\e[34m БОМБЕР [ python BOMBER.py ] \e[0m"
+echo -e " >>Введите команду:"
