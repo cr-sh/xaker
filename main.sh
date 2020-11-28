@@ -1,6 +1,7 @@
-echo -e "\e[34m 
-               █                                  
-               █         
+clear
+echo -e "\e[34m
+               █
+               █
                █
  █▒ ▒█  ░███░  █  ▒█   ███    █▒██▒
  ░█ █░  █▒ ▒█  █ ▒█   ▓▓ ▒█   ██  █
@@ -8,20 +9,8 @@ echo -e "\e[34m
   ░█░   ▒████  ██▓    █████   █
   ███   █▒  █  █░█░   █       █
  ░█ █░  █░ ▓█  █ ░█   ▓▓  █   █
- █▒ ▒█  ▒██▒█  █  ▒█   ███▒   █ 
+ █▒ ▒█  ▒██▒█  █  ▒█   ███▒   █
 made by @pkgsearch \e[0m"
-echo "[1] Дудос"
-echo "[2] Бомбер"
-
-echo -e " $purple >>Выберите параметр:"
-
-read 1
-read 2
-if [ "$1" ];
-then
-	python DDOS.py
-sleep 6
-if [ "$2" ];
-then
-	python BOMBER.py
-sleep 6
+echo -e "\e[34m [1]Дудос python DDOS.py \e[0m"
+echo -e "\e[34m [2]Бомбер python BOMBER.py \e[0m"
+echo -e " >>Выберите параметр:"
