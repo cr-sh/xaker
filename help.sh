@@ -8,7 +8,20 @@ echo -e "\e[34m
   ░█░   ▒████  ██▓    █████   █
   ███   █▒  █  █░█░   █       █
  ░█ █░  █░ ▓█  █ ░█   ▓▓  █   █
- █▒ ▒█  ▒██▒█  █  ▒█   ███▒   █ \e[0m"
-echo "made by pkgsearch"
-echo "bomber– python BOMBER.py"
-echo "ddos– python DDOS.py"
+ █▒ ▒█  ▒██▒█  █  ▒█   ███▒   █ 
+made by @pkgsearch \e[0m"
+echo "[1] Дудос"
+echo "[2] Бомбер"
+echo "Выберите параметр:"
+
+$1 = 1
+$2 = 2
+if ($1) {
+python DDOS.py   
+}
+
+
+
+if ($2) {
+   python BOMBER.py
+}
