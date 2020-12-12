@@ -1,6 +1,6 @@
 import os
-xaker = input("""\033[32m[1]бомбер
-[2]дудоc
+xaker = input("""\033[32m[1]Дудос
+[2]бомбер
 Выберите параметр: """)
 if xaker == "1":
     os.system("clear")
