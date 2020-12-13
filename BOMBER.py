@@ -57,12 +57,10 @@ block = """
  █   ░█   █    █
  █    █   █    █
  █    ▒ █████  █
-Чтобы взорвать жопу enter
-
-
-
-          
+Чтобы взорвать жопу enter        
 """
+print("номер ворага:")
+print(phone)
 print(block)
 input()
 os.system("clear")
@@ -77,11 +75,11 @@ print("""
  █    █   █    █
  █    ▒ █████  █
 
-Остановить Ctrl+z
-print("номер мрази:")
+Остановить Ctrl+z """)
+print("номер ворага::")
 print(phone)
           
-""")
+
 for x in range(12):
     _name = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'))
     password = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'))
